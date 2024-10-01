@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gowun+Batang:wght@400;700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+
+            <!-- logo -->
+            <img class="logo" src="./media/logo-portfolio.png" alt="no image">
+
+            <!-- links -->
+            <ul>
+                <li class="list-items">
+                    <a class="links" href="#home">Home</a>
+                </li>
+                <li class="list-items">
+                    <a class="links" href="#about">About</a>
+                </li>
+                <li class="list-items">
+                    <a class="links" href="#skills">Skills</a>
+                </li>
+                <li class="list-items">
+                    <a class="links" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+
+        <!-- Home -->
+         <section id="home">
+
+            <div class="sec-content">
+                <h1 class="animate__heartBeat" id="name">I'am Junaid <span id="lname">M Faisal</span></h1>
+                <p id="description">This is my Official Portfolio to describe all <br>details and work experience in Web Developmemnt</p>
+                <br><br>
+                <a id="download" target="_blank" href="./media/CV.pdf">Download CV</a>
+            </div>
+
+            <div class="sec-img">
+                <!-- shape -->
+                <img id="bg" class="home-img" src="./media/bg.png" alt="">
+                <img id="girl" class="home-img" src="./media/girl.png" alt="">
+            </div>
+
+         </section>
+
+
+        <!-- About -->
+         <section id="about">
+
+            <div class="sec-head">
+                <h1 class="mainhead">ABOUT ME</h1>
+                <span class="subhead">Introduction</span>
+            </div>
+
+            <div class="aboutBody">
+
+                <div data-aos="zoom-out-right" class="aboutImg">
+                    <img id="aboutgirl" src="./media/girl.png" alt="">
+                </div>
+
+                <div class="aboutContent">
+                    <p>Recent Computer Science graduate with PG Diploma in Advanced Software Engineering. Skilled in web development, have great communication skills with people of different background. Eager to contribute coding and development skills in a Professional Environment.</p>
+                    <br><br>
+                    <div id="details">
+
+                        <div id="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span id="sp">JUNAID M FAISAL</span>
+                            <br>
+                            <i class="fa-solid fa-phone"></i>
+                            <span id="sp">+917909191849</spa>
+                            <br>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span id="sp">junaidmfaisal@gmail.com</span>
+                            <br>
+
+                        </div>
+                        
+                    </div>
+    
+                </div>
+                
+            </div>
+
+         </section>
+
+
+        <!-- Skill -->
+         <section id="skills">
+
+            <div id="skillhead">
+                <h1 class="mainhead">SKILLS</h1>
+                <span class="subhead">My Skills</span>
+            </div>
+
+            <div id="skillcontent">
+
+                <!-- progressbar -->
+                <div id="progressbar">
+
+                    <!-- htmlBar -->
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barperc">93%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="zoom-in-right" class="basebar html"></div>
+                    </div>
+
+                    <!-- CSSBar -->
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barperc">85%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="zoom-in-right" class="basebar css"></div>
+                    </div>
+
+                    <!-- JavaScriptBar -->
+                    <div class="bars">
+                        <h3 class="barhead">JavaScript</h3>
+                        <span class="barperc">70%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="zoom-in-right" class="basebar javascript"></div>
+                    </div>
+
+                    <!-- ReactBar -->
+                    <div class="bars">
+                        <h3 class="barhead">React</h3>
+                        <span class="barperc">65%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="zoom-in-right" class="basebar react"></div>
+                    </div>
+
+                </div>
+
+                <!-- skillimage -->
+                 <div data-aos="zoom-in-left" id="skillimage">
+                    <img class="myskill" src="https://www.multidots.com/wp-content/uploads/2020/01/26-Importance-of-Coding-Standard-and-Code-Quality-in-Software-Development.png?quality=90" alt="">
+                 </div>
+            </div>
+         </section>
+
+
+        <!-- Contact -->
+         <section id="contact">
+
+            <div id="contacthead">
+                <h1 class="mainhead">CONTACT</h1>
+                
+            </div>
+
+            <!-- icons -->
+            <div id="contactbody">
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/junaid-m-faisal-393a73130/"><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+
+                <div class="icon">
+                    <a target="_blank" href="https://www.facebook.com/junaidmfaisal/"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+
+                <div class="icon">
+                    <a target="_blank" href="https://www.instagram.com/junaid_m_faisal/"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- footer -->
+         <footer>
+            <p id="copyright">&copy; My Portfolio Website June 2024, All Rights Reserved to &reg; Junaid M Faisal</p>
+            <div class="upArrow">
+                <a href="#container">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+         </footer>
+    </div>
+
+</body>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
